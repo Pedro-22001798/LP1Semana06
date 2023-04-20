@@ -25,6 +25,13 @@ namespace GameSix // Note: actual namespace depends on the project name.
         private float health;
         private float shield;
 
+        private static int numPowerUps;
+
+        static Foe()
+        {
+            numPowerUps = 0;
+        }
+
         public Foe(string name)
         {
             SetName(name);
@@ -71,12 +78,19 @@ namespace GameSix // Note: actual namespace depends on the project name.
             {
                 health = quantity;
                 if(health > 100) health = 100;
+                ++numPowerUps;
             }
             else if(typeOfPowerUp == PowerUp.Shield)
             {
                 shield = quantity;
                 if(shield > 100) shield = 100;
+                ++numPowerUps;
             }
+        }
+
+        public static int GetNumPowerUps()
+        {
+            return numPowerUps;
         }
     }
 }
