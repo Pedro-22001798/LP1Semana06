@@ -39,5 +39,21 @@ namespace GameSix // Note: actual namespace depends on the project name.
                 if(health < 0) health = 0;
             }
         }
+
+        public float GetHealth()
+        {
+            return health;
+        }
+
+        public float GetShield()
+        {
+            return shield;
+        }
+
+        public void SetName(string name)
+        {
+            string newName = name.Trim();
+            this.name = newName;
+        }
     }
 }
