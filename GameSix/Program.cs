@@ -17,7 +17,8 @@ namespace GameSix // Note: actual namespace depends on the project name.
                 enemies[numEnemies] = newEnemy;
             }
 
-            Console.WriteLine("Obrigado por ter usado o programa!");     
+            Console.WriteLine("Obrigado por ter usado o programa!");   
+            Console.WriteLine("Merci d'utiliser ce programme!");  
         }
     }
 
