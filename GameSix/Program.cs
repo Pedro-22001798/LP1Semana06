@@ -64,5 +64,19 @@ namespace GameSix // Note: actual namespace depends on the project name.
             string newName = name.Trim();
             this.name = newName;
         }
+
+        public void PickUpPowerUp(PowerUp typeOfPowerUp, float quantity)
+        {
+            if(typeOfPowerUp == PowerUp.Health)
+            {
+                health = quantity;
+                if(health > 100) health = 100;
+            }
+            else if(typeOfPowerUp == PowerUp.Shield)
+            {
+                shield = quantity;
+                if(shield > 100) shield = 100;
+            }
+        }
     }
 }
