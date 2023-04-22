@@ -32,4 +32,39 @@ namespace GameSixFriday
             // Room 12: Xenomorph
         }
     }
+
+    public class GameLevel
+    {
+        int rooms;
+        Difficulty difficulty;
+        Foe[] allFoes;
+        public GameLevel(int numRooms, Difficulty gameDifficulty)
+        {
+            this.rooms = numRooms;
+            this.difficulty = gameDifficulty;
+        }
+
+        public SetFoeInRoom(int room, Foe newFoe)
+        {
+            
+        }
+
+        public Difficulty GetDifficulty()
+        {
+            return difficulty;
+        }
+
+        public int GetNumRooms()
+        {
+            return rooms;
+        }
+
+        public int GetNumFoes()
+        {
+            int numFoes = allFoes.Length;
+            return numFoes;
+        }
+
+        
+    }
 }
