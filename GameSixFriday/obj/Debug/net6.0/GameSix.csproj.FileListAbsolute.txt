@@ -1,0 +1,15 @@
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\bin\Debug\net6.0\GameSix.exe
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\bin\Debug\net6.0\GameSix.deps.json
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\bin\Debug\net6.0\GameSix.runtimeconfig.json
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\bin\Debug\net6.0\GameSix.dll
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\bin\Debug\net6.0\GameSix.pdb
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\GameSix.csproj.AssemblyReference.cache
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\GameSix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\GameSix.AssemblyInfoInputs.cache
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\GameSix.AssemblyInfo.cs
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\GameSix.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\GameSix.dll
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\refint\GameSix.dll
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\GameSix.pdb
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\GameSix.genruntimeconfig.cache
+C:\Users\Pedro\Desktop\LP1\Semana6\GameSix\obj\Debug\net6.0\ref\GameSix.dll
