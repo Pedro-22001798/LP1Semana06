@@ -42,11 +42,22 @@ namespace GameSixFriday
         {
             this.rooms = numRooms;
             this.difficulty = gameDifficulty;
+            allFoes = new Foe[numRooms];
         }
 
-        public SetFoeInRoom(int room, Foe newFoe)
+        public void SetFoeInRoom(int room, Foe newFoe)
         {
-            
+            if(room <= rooms && room >= 0)
+            {
+                if(allFoes[room] == null)
+                {
+                    allFoes[room] = newFoe;
+                }
+                else
+                {
+                    Console.WriteLine("Room already has a Foe in it.");
+                }
+            }
         }
 
         public Difficulty GetDifficulty()
@@ -61,10 +72,26 @@ namespace GameSixFriday
 
         public int GetNumFoes()
         {
-            int numFoes = allFoes.Length;
+            int numFoes = 0;
+            for(int i = 0; i < allFoes.Length; i++)
+            {
+                if(allFoes[i] != null)
+                {
+                    numFoes++;
+                }
+            }
             return numFoes;
         }
 
-        
+        public void PrintFoes()
+        {
+            for(int i = 0; i < allFoes.Length; i ++)
+            {
+                if(allFoes[i] != null)
+                {
+                    Console.WriteLine($"Room {i}: {allFoes[i].GetName()}");
+                }
+            }
+        }
     }
 }

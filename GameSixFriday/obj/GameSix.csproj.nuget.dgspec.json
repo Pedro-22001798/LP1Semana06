@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pedro\\Desktop\\LP1\\Semana6\\GameSix\\GameSix.csproj": {}
+    "C:\\Users\\werds\\Desktop\\lp1\\LP1Semana06\\GameSixFriday\\GameSix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pedro\\Desktop\\LP1\\Semana6\\GameSix\\GameSix.csproj": {
+    "C:\\Users\\werds\\Desktop\\lp1\\LP1Semana06\\GameSixFriday\\GameSix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro\\Desktop\\LP1\\Semana6\\GameSix\\GameSix.csproj",
+        "projectUniqueName": "C:\\Users\\werds\\Desktop\\lp1\\LP1Semana06\\GameSixFriday\\GameSix.csproj",
         "projectName": "GameSix",
-        "projectPath": "C:\\Users\\Pedro\\Desktop\\LP1\\Semana6\\GameSix\\GameSix.csproj",
-        "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro\\Desktop\\LP1\\Semana6\\GameSix\\obj\\",
+        "projectPath": "C:\\Users\\werds\\Desktop\\lp1\\LP1Semana06\\GameSixFriday\\GameSix.csproj",
+        "packagesPath": "C:\\Users\\werds\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\werds\\Desktop\\lp1\\LP1Semana06\\GameSixFriday\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\werds\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -48,12 +48,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
